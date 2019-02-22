@@ -10,7 +10,7 @@ export async function setSpotifyAccessToken(token) {
     }
     if (process.client) {
         const callbackUrl = window.location.href;
-        const clientId = '9ce0744ff4a04334966cbcf3fb7e312d';
+        const clientId = '1214323f1c284a15bf88d1e28990b3c9';
         const scope = 'user-top-read';
         const apiUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&scope=${scope}&response_type=token&redirect_uri=${callbackUrl}`;
         let hash;

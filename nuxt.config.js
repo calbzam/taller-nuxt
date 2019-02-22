@@ -1,8 +1,18 @@
 const pkg = require('./package');
 
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: '/taller-nuxt/'
+    }
+  } : {}
+  
+  export default {
+    ...routerBase
+  }
+
 module.exports = {
     mode: 'universal',
-
+ 
     /*
     ** Headers of the page
     */

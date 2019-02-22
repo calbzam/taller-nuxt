@@ -4,7 +4,6 @@
   "description": "My Nuxt.js project",
   "author": "Cristina Fernández Sanz",
   "private": true,
-  "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -30,5 +29,4 @@
     "stylelint-config-standard": "^18.2.0",
     "stylelint-processor-html": "^1.0.0"
   }
-  
 }
